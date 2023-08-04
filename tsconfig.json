@@ -1,0 +1,8 @@
+{
+  "extends": "@eggjs/tsconfig",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "NodeNext"
+  }
+}
