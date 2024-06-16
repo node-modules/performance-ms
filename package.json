@@ -8,7 +8,7 @@
   "scripts": {
     "contributor": "git-contributor",
     "test": "npm run lint -- --fix && egg-bin test",
-    "ci": "npm run lint && egg-bin cov && npm run prepublishOnly",
+    "ci": "npm run lint && egg-bin cov",
     "lint": "eslint src test",
     "prepublishOnly": "tshy && tshy-after"
   },
