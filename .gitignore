@@ -4,3 +4,5 @@ coverage
 package-lock.json
 *.d.ts
 *.js
+.tshy*
+dist
